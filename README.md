@@ -25,13 +25,13 @@ Regular expressions are implemented with functionalities for pattern matching an
 
 ## Conversions <a name="conversions"></a>
 
-### RE to DFA <a name="re-to-dfa"></a>
-
-This conversion module converts regular expressions to equivalent Deterministic Finite Automata. It involves parsing the regular expression, constructing the corresponding GNFA, and then converting the GNFA to a DFA using subset construction.
-
 ### NFA to DFA <a name="nfa-to-dfa"></a>
 
 The NFA to DFA conversion module converts a Nondeterministic Finite Automaton to an equivalent Deterministic Finite Automaton. It applies the subset construction algorithm to generate the corresponding DFA from the given NFA.
+
+### RE to DFA <a name="re-to-dfa"></a>
+
+The translation of regular expressions (RE) into equivalent Deterministic Finite Automata (DFA) is made easier by this module. The procedure consists of processing the regular expression, building the appropriate Generalized Nondeterministic Finite Automaton (GNFA), and then using subset construction to transform the GNFA into a DFA.
 
 ## Usage
 
