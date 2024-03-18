@@ -11,3 +11,4 @@ Alpahbet = {0, 1]
 7. {w|w is a string has at most two 1's}
 8. {w|w is a string that contain substring 101}
 9. {w|w is a string that does not contain substring 101}
+10. {w| the sum of all symbols is w is multiple of 3}
