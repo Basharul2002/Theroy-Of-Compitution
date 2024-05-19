@@ -1,4 +1,4 @@
-![image](https://github.com/Basharul2002/Theroy-Of-Compitution/assets/112147775/c7e5c178-5c07-49fe-a979-210b82b6b2dc)# NFA
+# NFA
 
 Below are examples of Nondeterministic Finite Automata (NFA) representing different languages over the alphabet {0, 1}:
 
